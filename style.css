@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: #1a1a1a;
+    /* background-color: #1a1a1a; */
     margin: 10px 0px;
 }
 
@@ -33,7 +33,6 @@ body {
 .nav-logo {
     display: flex;
     align-items: center;
-    cursor: pointer;
 }
 
 .logo-image {
@@ -66,14 +65,60 @@ body {
     background-color: #2555d9; 
     color: #ffffff;
     border: none;
-    padding: 12px 28px;
+    padding: 12px;
     font-size: 14px;
     font-weight: bold;
     border-radius: 8px;
     cursor: pointer;
-    transition: background 0.2s ease;
 }
 
 .register-btn:hover {
+    background-color: #1b44b8;
+}
+
+/* hero section css */
+.hero-section {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("./assets/banner.jpg"); 
+    
+    width: 100%;                  
+    background-size: cover;       
+    background-position: center;  
+    background-repeat: no-repeat; 
+    padding: 150px 0; 
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;      
+    align-items: center;          
+    text-align: center;           
+}
+
+.hero-title {
+    color: #ffffff; 
+    font-size: 56px; 
+    font-weight: bold;
+    margin-bottom: 20px; 
+    letter-spacing: -1px;
+}
+
+.hero-paragraph{
+    color: #d1d5db;                     
+}
+
+.hero-register-btn {
+    background-color: #2555d9; 
+    color: #ffffff;
+    border: none;
+    padding: 15px 40px; 
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px; 
+    cursor: pointer;
+    margin-top: 150px;
+    margin-bottom: 0px;
+}
+
+.hero-register-btn:hover {
     background-color: #1b44b8;
 }
