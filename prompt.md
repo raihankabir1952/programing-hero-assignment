@@ -1,1 +1,1 @@
-Create a modern "Why Attend DevConf?" section with four feature cards highlighting the key benefits of attending the conference. Keep the designmclean, and consistent with the existing landing page.
+Create a modern "Why Attend DevConf?" section with four feature cards highlighting the key benefits of attending the conference. Keep the design clean, and consistent with the existing landing page.
