@@ -143,6 +143,8 @@ body {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 30px;
+    justify-content: center;
+    padding: 0 0 0 90px;
 }
 
 .speakers-card {
@@ -197,6 +199,7 @@ body {
 .pricing-section {
     background-color: #ffffff;
     padding: 80px 0;
+    /* padding: 0 0 0 70px; */
 }
 
 .header {
@@ -218,9 +221,11 @@ body {
 
 .pricing-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 30px;
-    align-items: center;
+    /* grid-template-columns: repeat(3, 1fr); */
+    grid-template-columns: repeat(3, 340px);
+    gap: 20px;
+    justify-content: center;
+    margin-left: 180px;
 }
 
 .price-card {
@@ -446,6 +451,8 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0 0 0 100px;
+    margin: 10px;
 }
 
 .footer-left p
